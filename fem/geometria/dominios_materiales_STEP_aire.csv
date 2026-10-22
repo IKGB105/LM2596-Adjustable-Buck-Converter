@@ -1,0 +1,78 @@
+dominio,material,que es
+1,Aire (gas ideal),Aire
+2,FR4 (placa),Placa
+3,Soldadura SAC305,Agujero THT relleno de soldadura (diam 2.00 mm)
+4,Soldadura SAC305,Agujero THT relleno de soldadura (diam 2.00 mm)
+5,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.50 mm)
+6,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.50 mm)
+7,"Relleno generico (C1-C3, R1)","Pieza de componente (8.0 x 8.0 x 8.09 mm, z0 1.51)"
+8,"Relleno generico (C1-C3, R1)","Pieza de componente (5.6 x 5.6 x 0.10 mm, z0 9.19)"
+9,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+10,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.30 mm)
+11,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.30 mm)
+12,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+13,Soldadura SAC305,Agujero THT relleno de soldadura (diam 0.80 mm)
+14,Soldadura SAC305,Agujero THT relleno de soldadura (diam 0.80 mm)
+15,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+16,Soldadura SAC305,Soldadura
+17,EMC (cuerpo de U1 y D1),Cuerpo de D1
+18,EMC (cuerpo de U1 y D1),Cuerpo de U1
+19,Soldadura SAC305,Soldadura
+20,"Cobre (tab y pines de U1, pads de L1/L2)",Tab de U1
+21,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+22,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+23,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+24,"Cobre (tab y pines de U1, pads de L1/L2)",Tab de U1
+25,Soldadura SAC305,Soldadura
+26,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+27,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+28,Soldadura SAC305,Soldadura
+29,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+30,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+31,Soldadura SAC305,Soldadura
+32,Soldadura SAC305,Soldadura
+33,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+34,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+35,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+36,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+37,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+38,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+39,Soldadura SAC305,Soldadura
+40,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+41,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+42,Soldadura SAC305,Soldadura
+43,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+44,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+45,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+46,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+47,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+48,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+49,"Cobre (tab y pines de U1, pads de L1/L2)",Pad de L1/L2
+50,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.30 mm)
+51,"Relleno generico (C1-C3, R1)",R1
+52,Soldadura SAC305,Agujero THT relleno de soldadura (diam 0.80 mm)
+53,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.30 mm)
+54,Soldadura SAC305,Agujero THT relleno de soldadura (diam 0.80 mm)
+55,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+56,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.30 mm)
+57,Soldadura SAC305,Agujero THT relleno de soldadura (diam 0.80 mm)
+58,"Cobre (tab y pines de U1, pads de L1/L2)",Pad de L1/L2
+59,"Relleno generico (C1-C3, R1)",Capacitor
+60,"Relleno generico (C1-C3, R1)","Pieza de componente (7.0 x 7.0 x 0.10 mm, z0 11.19)"
+61,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.50 mm)
+62,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.00 mm)
+63,"Cobre (tab y pines de U1, pads de L1/L2)",Pad de L1/L2
+64,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.50 mm)
+65,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.00 mm)
+66,"Relleno generico (C1-C3, R1)","Pieza de componente (8.0 x 8.0 x 8.09 mm, z0 1.51)"
+67,"Relleno generico (C1-C3, R1)","Pieza de componente (5.6 x 5.6 x 0.10 mm, z0 9.19)"
+68,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.30 mm)
+69,Soldadura SAC305,Agujero THT relleno de soldadura (diam 0.80 mm)
+70,"Cobre (tab y pines de U1, pads de L1/L2)",Pad de L1/L2
+71,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.30 mm)
+72,Soldadura SAC305,Agujero THT relleno de soldadura (diam 0.80 mm)
+73,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+74,Soldadura SAC305,Agujero THT relleno de soldadura (diam 2.00 mm)
+75,Soldadura SAC305,Agujero THT relleno de soldadura (diam 2.00 mm)
+76,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.50 mm)
+77,Soldadura SAC305,Agujero THT relleno de soldadura (diam 1.50 mm)

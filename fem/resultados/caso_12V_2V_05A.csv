@@ -1,0 +1,17 @@
+cantidad,valor,unidad
+Vin,12,V
+Vout,2,V
+Iout,0.5,A
+Ciclo de trabajo D,0.2205,
+P_U1,0.2329,W
+P_D1,0.1949,W
+P_L1,0.01,W
+P_L2,0.00625,W
+P_tot,0.444,W
+Potencia de salida,1,W
+Eficiencia estimada,69.25,%
+T union U1 (cara tab-cuerpo),44.29,degC
+T max U1,44.29,degC
+T max D1,52.49,degC
+T max placa,52.47,degC
+T max en todo,52.49,degC

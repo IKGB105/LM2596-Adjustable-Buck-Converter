@@ -1,0 +1,37 @@
+# LaTeX build artifacts (scoped to docs/ so other logs stay tracked)
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.synctex.gz
+docs/*.fls
+docs/*.fdb_latexmk
+docs/*.bbl
+docs/*.blg
+docs/*.nav
+docs/*.snm
+docs/*.vrb
+
+# KiCad backups/locks
+*-backups/
+fp-info-cache
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-unsaved-export-*.kicad_prl
+_autosave-*
+*.lck
+
+# COMSOL (working files are large and not needed for reproducibility;
+# the exported STEP geometry + CSV results + figures in fem/ capture what matters)
+*.mph
+*.mph.status
+*.mph.lock
+hs_err_pid*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python bytecode cache
+__pycache__/
+*.pyc

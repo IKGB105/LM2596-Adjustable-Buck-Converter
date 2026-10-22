@@ -1,0 +1,1009 @@
+### Inicio Thu Oct 22 07:57:26 AM CST 2026
+=== 07:57:26 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 51
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 530, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 504, in main
+    tabla = clasificar(g)
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 231, in clasificar
+    raise ValueError(f'Dominio {d} sin clasificar: {dx:.2f} x {dy:.2f} x {dz:.3f} mm, z0 = {z0:.3f}')
+ValueError: Dominio 4 sin clasificar: 5.58 x 5.59 x 0.100 mm, z0 = 9.195
+=== salida: 1
+=== 07:58:39 Resolver modelo con aire simulado
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+com.comsol.util.exceptions.com.comsol.util.exceptions.UnexpectedServerException: com.comsol.util.exceptions.UnexpectedServerException: java.lang.IllegalStateException: java.io.FileNotFoundException: /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph (No such file or directory)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "SourceFile", line 161, in com.comsol.model.util.ModelUtil.load
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 58, in main
+    model = client.load(str(MODELO))
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/client.py", line 324, in load
+    model = Model(self.java.load(tag, str(file)))
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.UnexpectedServerException: java.lang.IllegalStateException: java.io.FileNotFoundException: /home/tostada105/Proyects/Escuela/PCBs/BUCK LM259/fem/BUCK LM2596 termico 12V 2V 05A aire.mph (No such file or directory)
+	(rethrown as com.comsol.util.exceptions.FlException)
+Messages:
+	java.lang.IllegalStateException: java.io.FileNotFoundException: /home/tostada105/Proyects/Escuela/PCBs/BUCK LM259/fem/BUCK LM2596 termico 12V 2V 05A aire.mph (No such file or directory)
+
+=== salida: 1
+### Fin Thu Oct 22 07:59:03 AM CST 2026
+### Inicio Thu Oct 22 07:59:11 AM CST 2026
+=== 07:59:11 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 51
+Dominios por material: {'mat_aire_cfd': 1, 'mat_fr4': 1, 'mat_abs': 7, 'mat_via': 16, 'mat_sold': 8, 'mat_emc': 2, 'mat_cu': 16}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 534, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 520, in main
+    fisica(comp, tabla, g.getNDomains())
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 327, in fisica
+    aire_flujo(comp, ht, tabla)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 364, in aire_flujo
+    nitf.selection().named('sel_aire')
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: Selection is not editable.
+Messages:
+	Selection is not editable.
+
+=== salida: 1
+=== 08:00:42 Resolver modelo con aire simulado
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+com.comsol.util.exceptions.com.comsol.util.exceptions.UnexpectedServerException: com.comsol.util.exceptions.UnexpectedServerException: java.lang.IllegalStateException: java.io.FileNotFoundException: /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph (No such file or directory)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "SourceFile", line 161, in com.comsol.model.util.ModelUtil.load
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 58, in main
+    model = client.load(str(MODELO))
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/client.py", line 324, in load
+    model = Model(self.java.load(tag, str(file)))
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.UnexpectedServerException: java.lang.IllegalStateException: java.io.FileNotFoundException: /home/tostada105/Proyects/Escuela/PCBs/BUCK LM259/fem/BUCK LM2596 termico 12V 2V 05A aire.mph (No such file or directory)
+	(rethrown as com.comsol.util.exceptions.FlException)
+Messages:
+	java.lang.IllegalStateException: java.io.FileNotFoundException: /home/tostada105/Proyects/Escuela/PCBs/BUCK LM259/fem/BUCK LM2596 termico 12V 2V 05A aire.mph (No such file or directory)
+
+=== salida: 1
+### Fin Thu Oct 22 08:01:11 AM CST 2026
+### Inicio Thu Oct 22 08:01:16 AM CST 2026
+=== 08:01:16 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 51
+Dominios por material: {'mat_aire_cfd': 1, 'mat_fr4': 1, 'mat_abs': 7, 'mat_via': 16, 'mat_sold': 8, 'mat_emc': 2, 'mat_cu': 16}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Guardado (sin malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 534, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 524, in main
+    mesh = malla(comp, tabla)
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 444, in malla
+    mesh.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+Messages:
+	A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+
+	Failed to generate mesh for domain.
+	- Domain: 1
+
+	Intersecting face elements.
+	- Face: 68, 70, 71, 73, 75, 76, 495, 496, 498, 515, 516, 518, 587, 588, 590, 605, 606, 608
+	- Coordinates: (69.65, -29.3, 1.36244), ...
+
+=== salida: 1
+=== 08:03:23 Resolver modelo con aire simulado
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 63, in main
+    model.solve(etiqueta)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 343, in solve
+    node.run()
+    ~~~~~~~~^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/node.py", line 565, in run
+    java.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Failed to find a solution for the initial parameter.
+
+	Source selection not meshed.
+
+	Geometry: geom1, Domain: 1, Operator: comp1.spf.aveop
+
+	Failed to evaluate expression.
+
+	Expression: comp1.spf.aveop(comp1.spf.U)
+
+	Returned solution is not converged.
+
+	Not all parameter steps returned.
+
+=== salida: 1
+### Fin Thu Oct 22 08:04:40 AM CST 2026
+### Inicio Thu Oct 22 08:04:41 AM CST 2026
+=== 08:04:41 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 76
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 554, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 528, in main
+    tabla = clasificar(g)
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 255, in clasificar
+    raise ValueError(f'Dominio {d} sin clasificar: {dx:.2f} x {dy:.2f} x {dz:.3f} mm, z0 = {z0:.3f}')
+ValueError: Dominio 5 sin clasificar: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+=== salida: 1
+=== 08:05:42 Resolver modelo con aire simulado
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 63, in main
+    model.solve(etiqueta)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 343, in solve
+    node.run()
+    ~~~~~~~~^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/node.py", line 565, in run
+    java.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Failed to find a solution for the initial parameter.
+
+	Source selection not meshed.
+
+	Geometry: geom1, Domain: 1, Operator: comp1.spf.aveop
+
+	Failed to evaluate expression.
+
+	Expression: comp1.spf.aveop(comp1.spf.U)
+
+	Returned solution is not converged.
+
+	Not all parameter steps returned.
+
+=== salida: 1
+### Fin Thu Oct 22 08:06:53 AM CST 2026
+### Inicio Thu Oct 22 08:06:56 AM CST 2026
+=== 08:06:56 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 76
+    dominio 5 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 6 como relleno generico: 5.58 x 5.59 x 0.100 mm, z0 = 9.195
+    dominio 57 como relleno generico: 6.99 x 6.99 x 0.100 mm, z0 = 11.195
+    dominio 65 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 66 como relleno generico: 5.59 x 5.58 x 0.100 mm, z0 = 9.195
+Dominios por material: {'mat_aire_cfd': 1, 'mat_fr4': 1, 'mat_sold': 21, 'mat_abs': 7, 'mat_via': 16, 'mat_cu': 28, 'mat_emc': 2}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Guardado (sin malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 555, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 545, in main
+    mesh = malla(comp, tabla)
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 465, in malla
+    mesh.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+Messages:
+	A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+
+	Failed to generate mesh for domain.
+	- Domain: 1
+
+	Intersecting face elements.
+	- Face: 8, 9, 63-66, 68-71, 96, 97, 108, 109
+	- Coordinates: (25.2652, -33.7826, 0), ...
+
+=== salida: 1
+=== 08:08:50 Resolver modelo con aire simulado
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 63, in main
+    model.solve(etiqueta)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 343, in solve
+    node.run()
+    ~~~~~~~~^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/node.py", line 565, in run
+    java.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Failed to find a solution for the initial parameter.
+
+	Source selection not meshed.
+
+	Geometry: geom1, Domain: 1, Operator: comp1.spf.aveop
+
+	Failed to evaluate expression.
+
+	Expression: comp1.spf.aveop(comp1.spf.U)
+
+	Returned solution is not converged.
+
+	Not all parameter steps returned.
+
+=== salida: 1
+### Fin Thu Oct 22 08:10:11 AM CST 2026
+### Inicio Thu Oct 22 08:10:13 AM CST 2026
+=== 08:10:13 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 76
+    dominio 5 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 6 como relleno generico: 5.58 x 5.59 x 0.100 mm, z0 = 9.195
+    dominio 57 como relleno generico: 6.99 x 6.99 x 0.100 mm, z0 = 11.195
+    dominio 65 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 66 como relleno generico: 5.59 x 5.58 x 0.100 mm, z0 = 9.195
+Dominios por material: {'mat_aire_cfd': 1, 'mat_fr4': 1, 'mat_sold': 21, 'mat_abs': 7, 'mat_via': 16, 'mat_cu': 28, 'mat_emc': 2}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Guardado (sin malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 558, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 548, in main
+    mesh = malla(comp, tabla)
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 468, in malla
+    mesh.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+Messages:
+	A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+
+	Failed to generate mesh for domain.
+	- Domain: 1
+
+	Intersecting face elements.
+	- Face: 8, 9, 63-66, 68-71, 96, 97, 108, 109
+	- Coordinates: (25.6652, -33.9134, 0), ...
+
+=== salida: 1
+=== 08:12:04 Resolver modelo con aire simulado
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 63, in main
+    model.solve(etiqueta)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 343, in solve
+    node.run()
+    ~~~~~~~~^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/node.py", line 565, in run
+    java.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Failed to find a solution for the initial parameter.
+
+	Source selection not meshed.
+
+	Geometry: geom1, Domain: 1, Operator: comp1.spf.aveop
+
+	Failed to evaluate expression.
+
+	Expression: comp1.spf.aveop(comp1.spf.U)
+
+	Returned solution is not converged.
+
+	Not all parameter steps returned.
+
+=== salida: 1
+### Fin Thu Oct 22 08:13:23 AM CST 2026
+### Inicio Thu Oct 22 08:13:28 AM CST 2026
+=== 08:13:28 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 70
+    dominio 5 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 6 como relleno generico: 5.58 x 5.59 x 0.100 mm, z0 = 9.195
+    dominio 55 como relleno generico: 6.99 x 6.99 x 0.100 mm, z0 = 11.195
+    dominio 61 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 62 como relleno generico: 5.59 x 5.58 x 0.100 mm, z0 = 9.195
+Dominios por material: {'mat_aire_cfd': 1, 'mat_fr4': 1, 'mat_sold': 21, 'mat_abs': 7, 'mat_via': 16, 'mat_cu': 22, 'mat_emc': 2}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Guardado (sin malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 568, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 558, in main
+    mesh = malla(comp, tabla)
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 478, in malla
+    mesh.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+Messages:
+	A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+
+	Failed to generate mesh for domain.
+	- Domain: 1
+
+	Intersecting face elements.
+	- Face: 8, 9, 63-66, 68-71, 93, 94, 102, 103
+	- Coordinates: (25.2652, -30.2826, 0), ...
+
+=== salida: 1
+=== 08:15:52 Resolver modelo con aire simulado
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 63, in main
+    model.solve(etiqueta)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 343, in solve
+    node.run()
+    ~~~~~~~~^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/node.py", line 565, in run
+    java.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Failed to find a solution for the initial parameter.
+
+	Source selection not meshed.
+
+	Geometry: geom1, Domain: 1, Operator: comp1.spf.aveop
+
+	Failed to evaluate expression.
+
+	Expression: comp1.spf.aveop(comp1.spf.U)
+
+	Returned solution is not converged.
+
+	Not all parameter steps returned.
+
+=== salida: 1
+### Fin Thu Oct 22 08:17:06 AM CST 2026
+### Inicio Thu Oct 22 08:17:09 AM CST 2026
+=== 08:17:09 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 64
+    dominio 5 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 6 como relleno generico: 5.58 x 5.59 x 0.100 mm, z0 = 9.195
+    dominio 53 como relleno generico: 6.99 x 6.99 x 0.100 mm, z0 = 11.195
+    dominio 57 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 58 como relleno generico: 5.59 x 5.58 x 0.100 mm, z0 = 9.195
+Dominios por material: {'mat_aire_cfd': 1, 'mat_fr4': 1, 'mat_sold': 21, 'mat_abs': 7, 'mat_via': 16, 'mat_emc': 2, 'mat_cu': 16}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Guardado (sin malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 569, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 559, in main
+    mesh = malla(comp, tabla)
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/modelo_termico_step.py", line 479, in malla
+    mesh.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+Messages:
+	A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+
+	Failed to generate mesh for domain.
+	- Domain: 1
+
+	Intersecting face elements.
+	- Face: 9, 64-66, 69-71, 90, 91, 96, 97
+	- Coordinates: (25.4044, -33.6518, 0.975576), ...
+
+=== salida: 1
+=== 08:18:57 Resolver modelo con aire simulado
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 63, in main
+    model.solve(etiqueta)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 343, in solve
+    node.run()
+    ~~~~~~~~^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/node.py", line 565, in run
+    java.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Failed to find a solution for the initial parameter.
+
+	Source selection not meshed.
+
+	Geometry: geom1, Domain: 1, Operator: comp1.spf.aveop
+
+	Failed to evaluate expression.
+
+	Expression: comp1.spf.aveop(comp1.spf.U)
+
+	Returned solution is not converged.
+
+	Not all parameter steps returned.
+
+=== salida: 1
+### Fin Thu Oct 22 08:20:12 AM CST 2026
+### Inicio Thu Oct 22 08:20:17 AM CST 2026
+=== 08:20:17 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 77
+    dominio 7 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 8 como relleno generico: 5.58 x 5.59 x 0.100 mm, z0 = 9.195
+    dominio 60 como relleno generico: 6.99 x 6.99 x 0.100 mm, z0 = 11.195
+    dominio 66 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 67 como relleno generico: 5.59 x 5.58 x 0.100 mm, z0 = 9.195
+Dominios por material: {'mat_aire_cfd': 1, 'mat_fr4': 1, 'mat_sold': 34, 'mat_abs': 7, 'mat_via': 16, 'mat_emc': 2, 'mat_cu': 16}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Guardado (sin malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Elementos de malla: 317992
+Guardado (con malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+=== salida: 0
+=== 08:22:41 Resolver modelo con aire simulado
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 133, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 63, in main
+    model.solve(etiqueta)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 343, in solve
+    node.run()
+    ~~~~~~~~^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/node.py", line 565, in run
+    java.run()
+    ~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Failed to find a solution for the initial parameter.
+
+	Maximum number of Newton iterations reached.
+
+	Returned solution is not converged.
+
+	Not all parameter steps returned.
+
+=== salida: 1
+### Fin Thu Oct 22 10:31:21 AM CST 2026
+### Inicio Thu Oct 22 11:24:43 AM CST 2026
+=== 11:24:43 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 77
+    dominio 7 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 8 como relleno generico: 5.60 x 5.59 x 0.100 mm, z0 = 9.195
+    dominio 60 como relleno generico: 7.00 x 7.00 x 0.100 mm, z0 = 11.195
+    dominio 66 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 67 como relleno generico: 5.59 x 5.60 x 0.100 mm, z0 = 9.195
+Dominios por material: {'mat_fr4': 2, 'mat_sold': 34, 'mat_abs': 7, 'mat_via': 16, 'mat_emc': 2, 'mat_cu': 16}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Guardado (sin malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Elementos de malla: 223400
+Guardado (con malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+=== salida: 0
+=== 11:26:10 Resolver modelo con aire simulado
+  se1 (Segregated): maxsegiter = 200
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 151, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 92, in main
+    filas += [('Velocidad maxima del aire', ev('max_todo(spf.U)', 'mm/s'), 'mm/s')]
+                                            ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 86, in ev
+    return float(np.real(np.ravel(model.evaluate(expr, unidad, dataset=d, inner=[n_pasos]))[0]))
+                                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 595, in evaluate
+    results = array(java.getData())
+                    ~~~~~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: Failed to evaluate expression.
+Messages:
+	Cannot evaluate expression.
+
+	Undefined variable.
+	- Variable: comp1.spf.U
+	- Geometry: geom1
+	- Domain: 1
+
+	Failed to evaluate expression.
+	- Expression: comp1.spf.U
+
+	Failed to evaluate expression.
+	- Expression: comp1.max_todo(comp1.spf.U)
+
+	Failed to evaluate expression.
+	- Expression: 1000*comp1.max_todo(comp1.spf.U)
+	- Feature: Evaluation 1
+
+=== salida: 1
+### Fin Thu Oct 22 11:29:41 AM CST 2026
+  se1 (Segregated): maxsegiter = 200
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 156, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 96, in main
+    filas += [('Velocidad maxima del aire', ev('max_aire(spf.U)', 'mm/s'), 'mm/s'),
+                                            ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 86, in ev
+    return float(np.real(np.ravel(model.evaluate(expr, unidad, dataset=d, inner=[n_pasos]))[0]))
+                                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 595, in evaluate
+    results = array(java.getData())
+                    ~~~~~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: Unknown function or operator.
+Messages:
+	Unknown function or operator.
+	- Name: max_aire
+	- Feature: Evaluation 1
+
+=== resolver salida: 1
+  se1 (Segregated): maxsegiter = 200
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+  Vin: 12 V
+  Vout: 2 V
+  Iout: 0.5 A
+  Factor de potencia k_P (1 = completa): 1 
+  P_U1: 0.2329 W
+  P_D1: 0.1949 W
+  P_L1: 0.01 W
+  P_L2: 0.00625 W
+  P_tot: 0.444 W
+  T union U1 (cara tab-cuerpo): -273.1 degC
+  T max U1: -273.1 degC
+  T max D1: -273.1 degC
+  T max placa: -273.1 degC
+  Velocidad maxima del aire: -inf mm/s
+  T max del aire: -inf degC
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 157, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 147, in main
+    exportar(j, tag, FEM / 'figuras' / archivo)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 39, in exportar
+    e.run()
+    ~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: Failed to evaluate expression.
+Messages:
+	Cannot evaluate expression.
+
+	Undefined variable.
+	- Variable: comp1.spf.U
+	- Geometry: geom1
+	- Domain: 1
+
+	Failed to evaluate expression.
+	- Expression: 1000*comp1.spf.U
+	- Plot: Slice 1
+
+=== resolver salida: 1
+=== 11:44:28 Resolver (con seleccion del aire verificada)
+  sel_aire: dominios [1]
+  flujo spf: dominios [1]
+  fluido (calor): dominios [1]
+  acoplamiento nitf: dominios [1]
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 176, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 93, in main
+    sol.createAutoSequence('std1')
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+Messages:
+	Error in multiphysics compilation.
+
+	A problem occurred when building mesh feature 'Aire: tetraedros que crecen hacia afuera'.
+
+	The following entities are already meshed.
+	- Domain: 1
+
+=== resolver salida: 1
+=== 11:46:16 Resolver (seleccion de aire y malla corregidas)
+  sel_aire: dominios [1]
+  flujo spf: dominios [1]
+  fluido (calor): dominios [1]
+  acoplamiento nitf: dominios [1]
+  malla: solidos 76 dominios, aire [1]
+  malla: 202401 elementos, calidad min 0.000
+  fc1 (FullyCoupled): maxiter = 200
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 190, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 119, in main
+    sol.runAll()
+    ~~~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Undefined material property 'mu' required by Fluid Properties 1.
+
+=== resolver salida: 1
+### Inicio Thu Oct 22 11:49:43 AM CST 2026
+=== 11:49:43 Construir modelo con aire simulado
+Modo: aire -> BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Dominios originales: 271
+  Objetos del STEP: 212, se quitan 186 (cobre, pads, vias)
+Dominios del modelo: 77
+    dominio 7 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 8 como relleno generico: 5.60 x 5.59 x 0.100 mm, z0 = 9.195
+    dominio 60 como relleno generico: 7.00 x 7.00 x 0.100 mm, z0 = 11.195
+    dominio 66 como relleno generico: 8.00 x 8.00 x 8.085 mm, z0 = 1.510
+    dominio 67 como relleno generico: 5.59 x 5.60 x 0.100 mm, z0 = 9.195
+Dominios por material: {'mat_aire_cfd': 1, 'mat_fr4': 1, 'mat_sold': 34, 'mat_abs': 7, 'mat_via': 16, 'mat_emc': 2, 'mat_cu': 16}
+  sel_qU1: 1 cara(s)
+  sel_qD1: 6 cara(s)
+  sel_qL1: 2 cara(s)
+  sel_qL2: 2 cara(s)
+Guardado (sin malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+Elementos de malla: 202401
+Guardado (con malla): /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+=== salida: 0
+=== 11:51:13 Resolver modelo con aire simulado
+  sel_aire: dominios [1]
+  flujo spf: dominios [1]
+  fluido (calor): dominios [1]
+  acoplamiento nitf: dominios [1]
+  malla: solidos 76 dominios, aire [1]
+  malla: 202401 elementos, calidad min 0.000
+  fc1 (FullyCoupled): maxiter = 200
+Resolviendo: 1 Caso 12 V -> 2 V, 0.5 A (aire simulado)
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 190, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire.py", line 119, in main
+    sol.runAll()
+    ~~~~~~~~~~^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem:
+Messages:
+	The following feature has encountered a problem:
+	- Feature: Stationary Solver 1 (sol1/s1)
+
+	Failed to find a solution for the initial parameter.
+
+	Maximum number of Newton iterations reached.
+
+	Returned solution is not converged.
+
+	Not all parameter steps returned.
+
+=== salida: 1
+### Fin Thu Oct 22 01:09:18 PM CST 2026
+=== 13:35:11 Transitorio hasta estado estable
+  flujo spf: dominios [1]
+  acoplamiento nitf: dominios [1]
+Resolviendo: 2 Transitorio hasta estado estable (aire simulado)
+Argument "inner", if specified, must be either "first", "last", or a list/array of integers.
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire_transitorio.py", line 100, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire_transitorio.py", line 81, in main
+    tiempos = np.ravel(model.evaluate('t', 's', dataset=d, inner='all'))
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tostada105/Proyects/Escuela/Comsol/.venv/lib/python3.14/site-packages/mph/model.py", line 485, in evaluate
+    raise TypeError(error)
+TypeError: Argument "inner", if specified, must be either "first", "last", or a list/array of integers.
+=== transitorio salida: 1
+=== 13:48:15 Transitorio hasta estado estable (2)
+  flujo spf: dominios [1]
+  acoplamiento nitf: dominios [1]
+Resolviendo: 2 Transitorio hasta estado estable (aire simulado)
+Solucion guardada: /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+  Curva T(U1) vs t: ['0s:25.1', '30s:52.8', '60s:67.4', '90s:80.5', '120s:93.2', '150s:105.9', '180s:118.6', '210s:131.5', '240s:144.6', '270s:157.7', '300s:171.0']
+  Vin: 12 V
+  Vout: 2 V
+  Iout: 0.5 A
+  P_U1: 0.2329 W
+  P_D1: 0.1949 W
+  P_L1: 0.01 W
+  P_L2: 0.00625 W
+  P_tot: 0.444 W
+  T union U1 (cara tab-cuerpo): 171 degC
+  T max U1: 171 degC
+  T max D1: 180.9 degC
+  T max placa: 180.9 degC
+  Velocidad maxima del aire: 17.63 mm/s
+  T max del aire: 180.9 degC
+  Cambio de T U1 en los ultimos 10 s (estabilidad): 4.457 K
+Guardado: /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/BUCK_LM2596_termico_12V_2V_05A_aire.mph
+=== transitorio salida: 0
+=== 14:02:26 Transitorio con gravedad asignada
+  flujo spf: dominios [1]
+  acoplamiento nitf: dominios [1]
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire_transitorio.py", line 108, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire_transitorio.py", line 46, in main
+    grav.selection().set(aire)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: No entity dimension specified.
+Messages:
+	No entity dimension specified.
+
+=== transitorio salida: 1
+=== 14:03:33 Transitorio con gravedad asignada (2)
+  flujo spf: dominios [1]
+  acoplamiento nitf: dominios [1]
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line 0, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire_transitorio.py", line 109, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/codigo/resolver_aire_transitorio.py", line 46, in main
+    grav.selection().geom('geom1', 3)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+com.comsol.util.exceptions.com.comsol.util.exceptions.FlException: Exception:
+	com.comsol.util.exceptions.FlException: Selection type not allowed.
+Messages:
+	Selection type not allowed.
+	- Type: Geometric entities
+	- Allowed types: [GLOBAL]
+	- Selection: Global
+	- Filter: GlobalOnlySelectionFilter
+
+=== transitorio salida: 1

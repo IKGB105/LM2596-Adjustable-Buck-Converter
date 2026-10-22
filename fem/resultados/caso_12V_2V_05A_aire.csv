@@ -1,0 +1,16 @@
+cantidad,valor,unidad
+Vin,12,V
+Vout,2,V
+Iout,0.5,A
+P_U1,0.2329,W
+P_D1,0.1949,W
+P_L1,0.01,W
+P_L2,0.00625,W
+P_tot,0.444,W
+T union U1 (cara tab-cuerpo),171,degC
+T max U1,171,degC
+T max D1,180.9,degC
+T max placa,180.9,degC
+Velocidad maxima del aire,17.63,mm/s
+T max del aire,180.9,degC
+Cambio de T U1 en los ultimos 10 s (estabilidad),4.457,K

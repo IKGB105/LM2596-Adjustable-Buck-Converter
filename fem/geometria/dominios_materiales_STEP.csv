@@ -1,0 +1,200 @@
+dominio,material,que es
+1,FR4 (placa),Placa
+2,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+3,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+4,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+5,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+6,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+7,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+8,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+9,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+10,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 1.50 mm)
+11,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+12,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+13,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+14,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+15,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 1.50 mm)
+16,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+17,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+18,"Relleno generico (C1-C3, R1)",Capacitor
+19,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+20,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+21,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+22,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+23,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+24,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+25,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+26,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+27,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+28,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+29,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+30,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+31,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 0.80 mm)
+32,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+33,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+34,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 0.80 mm)
+35,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+36,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+37,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+38,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+39,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+40,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+41,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+42,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+43,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+44,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+45,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+46,Soldadura SAC305,Soldadura
+47,EMC (cuerpo de U1 y D1),Cuerpo de D1
+48,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+49,EMC (cuerpo de U1 y D1),Cuerpo de U1
+50,Soldadura SAC305,Soldadura
+51,"Cobre (tab y pines de U1, pads de L1/L2)",Tab de U1
+52,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+53,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+54,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+55,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+56,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+57,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+58,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+59,"Cobre (tab y pines de U1, pads de L1/L2)",Tab de U1
+60,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+61,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+62,Soldadura SAC305,Soldadura
+63,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+64,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+65,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+66,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+67,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+68,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+69,Soldadura SAC305,Soldadura
+70,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+71,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+72,Soldadura SAC305,Soldadura
+73,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+74,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+75,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+76,Soldadura SAC305,Soldadura
+77,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+78,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+79,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+80,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+81,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+82,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+83,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+84,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+85,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+86,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+87,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+88,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+89,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+90,Soldadura SAC305,Soldadura
+91,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+92,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+93,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+94,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+95,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+96,Soldadura SAC305,Soldadura
+97,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+98,"Cobre (tab y pines de U1, pads de L1/L2)",Pin de U1
+99,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+100,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+101,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+102,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+103,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+104,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+105,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+106,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+107,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+108,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+109,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+110,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+111,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+112,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+113,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+114,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+115,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+116,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+117,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+118,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 0.80 mm)
+119,"Relleno generico (C1-C3, R1)",R1
+120,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+121,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+122,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+123,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+124,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+125,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+126,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+127,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+128,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+129,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+130,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+131,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 0.80 mm)
+132,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+133,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+134,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+135,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+136,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+137,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+138,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+139,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 0.80 mm)
+140,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+141,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+142,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+143,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+144,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+145,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+146,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+147,"Relleno generico (C1-C3, R1)",Capacitor
+148,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+149,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+150,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+151,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+152,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 1.00 mm)
+153,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+154,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+155,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+156,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+157,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+158,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+159,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+160,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+161,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 1.00 mm)
+162,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+163,"Relleno generico (C1-C3, R1)",Capacitor
+164,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+165,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+166,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+167,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+168,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+169,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 0.80 mm)
+170,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+171,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+172,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+173,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+174,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+175,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+176,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+177,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+178,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+179,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 0.80 mm)
+180,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+181,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+182,Vias: cobre equivalente (FR4 si con_vias = 0),Via
+183,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+184,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+185,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+186,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+187,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+188,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+189,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+190,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+191,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+192,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+193,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 1.50 mm)
+194,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+195,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+196,"Cobre (tab y pines de U1, pads de L1/L2)",Barril de agujero THT (diam 1.50 mm)
+197,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+198,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"
+199,"Cobre (tab y pines de U1, pads de L1/L2)","Lamina de cobre (pista, pad o plano)"

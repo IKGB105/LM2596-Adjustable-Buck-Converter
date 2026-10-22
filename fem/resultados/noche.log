@@ -1,0 +1,34 @@
+### Inicio Thu Oct 22 12:04:00 AM CST 2026
+=== 00:04:00 1. Malla del cobre solido (refinamiento automatico)
+Intento 1: falla en (78.331, -22.633, 1.550) mm -> refino ahi (37 s)
+Intento 2: falla en (22.909, -47.405, -0.035) mm -> refino ahi (49 s)
+Intento 3: falla en (51.085, -24.592, 1.545) mm -> refino ahi (65 s)
+Intento 4: falla en (78.514, -47.833, -0.040) mm -> refino ahi (452 s)
+Intento 5: falla en (25.660, -30.280, 1.510) mm -> refino ahi (516 s)
+Intento 6: falla en (60.620, -29.569, 0.000) mm -> refino ahi (497 s)
+Intento 7: falla en (25.659, -33.779, 0.000) mm -> refino ahi (930 s)
+Intento 8: falla en (66.151, -29.023, 0.000) mm -> refino ahi (1016 s)
+Intento 9: falla en (70.226, -29.507, 1.545) mm -> refino ahi (996 s)
+unknown: Fatal error in exception handling
+unknown: /io/native/common/jp_javaframe.cpp JPJavaFrame 49
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f6aed985f17, pid=2499797, tid=2499797
+#
+# JRE version: OpenJDK Runtime Environment Temurin-21.0.7+6 (21.0.7+6) (build 21.0.7+6-LTS)
+# Java VM: OpenJDK 64-Bit Server VM Temurin-21.0.7+6 (21.0.7+6-LTS, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [_jpype.so+0x3bf17]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/lib/systemd/systemd-coredump %P %u %g %s %t %c %h %d %F %I" (or dumping to /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/core.2499797)
+#
+# An error report file with more information is saved as:
+# /home/tostada105/Proyects/Escuela/PCBs/BUCK_LM259/fem/hs_err_pid2499797.log
+#
+# If you would like to submit a bug report, please visit:
+#   https://github.com/adoptium/adoptium-support/issues
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+timeout: the monitored command dumped core

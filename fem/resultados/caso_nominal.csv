@@ -1,0 +1,12 @@
+cantidad,valor,unidad
+P_U1,1.1378,W
+P_D1,1.4244,W
+P_L1,0.3600,W
+P_L2,0.2250,W
+P_tot,3.1472,W
+eficiencia,54.0,%
+T union U1 (cara tab-cuerpo),116.16,degC
+T max U1,116.16,degC
+T max D1,187.87,degC
+T max placa,187.76,degC
+T max en todo,187.87,degC
