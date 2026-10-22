@@ -2,7 +2,8 @@
 
 Adjustable step-down (buck) power supply based on the LM2596S-ADJ, documented as an honest engineering
 logbook: every result is marked as calculated, simulated, or pending — no invented placeholders. A quick,
-deliberately simple project in the same series as [FuenteLM317_9V](../FuenteLM317_9V) (same thermal
+deliberately simple project in the same series as
+[LM317-Adjustable-PowerSupply](https://github.com/IKGB105/LM317-Adjustable-PowerSupply) (same thermal
 analysis style, meant as a direct comparison point) — built mainly to get hands-on KiCad PCB layout
 experience (placement, trace widths, a ground-plane strategy, via stitching) before moving on to
 multiphase VRM work.
@@ -12,17 +13,26 @@ multiphase VRM work.
 - **Demonstration condition used for thermal comparison:** 12 V → 2 V @ 0.5 A (same load as the LM317
   companion project)
 
+> ⚠️ **Not safe across the full adjustable range.** At the low-output-voltage extreme (35 V → 1.23 V),
+> the catch diode D1 exceeds its rated junction temperature above ≈1.5–2 A. This is a genuine finding
+> from the COMSOL analysis, documented in Section 7 of the report — not a flaw hidden from this README.
+
+<table>
+<tr>
+<td><img src="docs/figures/schematic.png" width="280" alt="KiCad schematic"><br><sub>KiCad — schematic</sub></td>
+<td><img src="docs/figures/pcb_3d.png" width="280" alt="KiCad PCB 3D render"><br><sub>KiCad — PCB 3D render</sub></td>
+<td><img src="fem/figuras/temperatura_3D_12V_2V_05A.png" width="280" alt="COMSOL thermal simulation result"><br><sub>COMSOL — thermal result (12 V → 2 V, 0.5 A)</sub></td>
+</tr>
+</table>
+
 ## Thermal result (resolved for the demo condition, limitation found at the range's extreme)
 
 - **At 12 V → 2 V, 0.5 A:** COMSOL gives **0.444 W** total estimated loss — **44.3 °C** on the LM2596's
   junction, **52.5 °C** peak on the catch diode (D1). Both comfortably under their rated limits, and a
   large improvement over the LM317 companion project's result at the same load (5.37 W, ≈144 °C with a
   heatsink).
-- **Documented limitation:** at the adjustable range's low-output-voltage extreme (35 V → 1.23 V, minimum
-  duty cycle), **the catch diode — not the LM2596 itself — is what actually limits safe operation**,
-  exceeding its rated junction temperature above ≈1.5–2 A (conservative, no-radiation case). Root-caused
-  to a single isolated ground via at D1's anode pad; a fix (more copper/vias there) is proposed but **not
-  implemented** in this revision — see the report.
+- **Root cause of the D1 limitation above:** a single isolated ground via at D1's anode pad. A fix (more
+  copper/vias there) is proposed but **not implemented** in this revision — see the report.
 
 ## Repository structure
 
